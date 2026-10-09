@@ -8,7 +8,7 @@ RUN apt install default-jdk -y
 
 WORKDIR /opt/tomcat/
 
-ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.109/bin/apache-tomcat-9.0.109.tar.gz /opt/tomcat/
+ADD https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.109/bin/apache-tomcat-9.0.109.tar.gz /opt/tomcat/
 
 RUN tar -xvzf apache-tomcat-9.0.109.tar.gz  -C /opt/tomcat/
 
