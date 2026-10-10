@@ -21,7 +21,7 @@
 
   ### $$\color{orange} \textbf {Now SSH  into Database  Server}$$
 
-![database-instance](https://github.com/abhipraydhoble/Project-3-tier-Student-App/assets/122669982/8159a278-d612-441e-93da-d581428cdd3a)
+![database-instance](https://github.com/Alpesh-Rajendra/Project-3-tier-Student-App/assets/122669982/8159a278-d612-441e-93da-d581428cdd3a)
 
 ````
 sudo apt update -y
@@ -37,7 +37,7 @@ systemctl enable mariadb
 ````
 ### $\color{orange} \textbf{Log \ in \ into \ database}$
 
-![login into database](https://github.com/abhipraydhoble/Project-3-tier-Student-App/assets/122669982/ba0c082a-060f-48f9-8520-83c906337251)
+![login into database](https://github.com/Alpesh-Rajendra/Project-3-tier-Student-App/assets/122669982/ba0c082a-060f-48f9-8520-83c906337251)
 
 ````
 mysql -h rds-endpoint   -u admin -pPasswd123$
@@ -87,7 +87,7 @@ docker-compose --version
 ````
 ## clone repository
 ````
-git clone https://github.com/abhipraydhoble/ThreeTier-Using-Docker.git
+git clone https://github.com/Alpesh-Rajendra/ThreeTier-Using-Docker.git
 cd ThreeTier-Using-Docker
 ````
 ## add connection string in ./Backend/context.xml 
